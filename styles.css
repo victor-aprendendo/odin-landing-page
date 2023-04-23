@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    max-width: 1550px;
+    margin: 0;
+}
+
+/* Header */
+
+header, footer {
+    background-color: #1f2937;
+    padding: 0 15%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.nav-items {
+    width: 40%;
+    display: flex; 
+    justify-content: space-between;
+}
+.nav-items > a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.under-nav {
+    display: flex;
+    padding: 120px 0;
+}
+.header-text{
+    padding-right: 70px;
+}
+.header-text > h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-style: extra-bold;
+}
+.header-text > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#sign-up {
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.header-image {
+    width: 950px;
+    height: 230px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Section 1 */
+
+#header-link-one {
+    background-color: white;
+    padding: 50px 15% 180px;
+}
+h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: extra-bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.flex-item {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+.flex-text {
+    color: #1f2937;
+    font-size: 18px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+/* Section 2 */
+
+#header-link-two {
+    padding: 120px 21.5%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+#header-link-two p {
+    text-align: right;
+    margin-right: 45px;
+    font-size: 18px;
+}
+
+/* Section 3 */
+
+#header-link-three {
+    padding: 100px 15%;
+}
+.blue-part {
+    background-color: #3882f6;
+    padding: 45px 100px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-part {
+    color: white;
+    font-size: 18px;
+}
+.blue-part #sign-up-two {
+    width: 130px;
+    height: 35px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 0px;
+}   
+
+/* Footer */
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0;
+}
